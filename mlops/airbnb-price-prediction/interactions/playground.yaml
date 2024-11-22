@@ -1,0 +1,23 @@
+inputs:
+  drowpdown:
+    options:
+    - label: Private
+      value: Private room
+    - label: Shared
+      value: Shared room
+    - label: Entire
+      value: Entire home/apt
+    style: null
+    type: dropdown_menu
+layout:
+- - variable: room_type
+    width: 1
+variables:
+  room_type:
+    description: Type of room
+    input: drowpdown
+    name: room_type
+    required: false
+    types:
+    - string
+    uuid: null

@@ -1,0 +1,16 @@
+airbnb_training_set:
+  object_type: pipeline
+  object_uuid: data_preparation
+  outdated_after:
+    seconds: 600
+  project: airbnb-price-prediction
+  repo_path: /home/src/mlops/airbnb-price-prediction
+  settings:
+    build: {}
+xgboost:
+  object_type: pipeline
+  object_uuid: xgboost_training
+  project: airbnb-price-prediction
+  repo_path: /home/src/mlops/airbnb-price-prediction
+  settings:
+    xgboost: {}

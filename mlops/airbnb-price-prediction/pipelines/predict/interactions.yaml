@@ -1,0 +1,10 @@
+blocks:
+  online_inference_guide:
+  - description: Have fun!
+    layout: []
+    name: Make prediction without API request
+    permissions: []
+    uuid: playground.yaml
+    variables: {}
+layout: []
+permissions: []

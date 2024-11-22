@@ -1,4 +1,6 @@
 projects:
+  airbinb-price-prediction:
+    path: airbnb-price-prediction
   unit_0_setup: {}
   unit_1_data_preparation: {}
   unit_2_training: {}
